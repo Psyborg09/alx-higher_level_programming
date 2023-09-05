@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-"""Solves the N-queens puzzle.
+
+lves the N-queens puzzle.
 
 Determines all possible solutions to placing N
 N non-attacking queens on an NxN chessboard.
@@ -16,12 +16,12 @@ Attributes:
 Solutions are represented in the format [[r, c], [r, c], [r, c], [r, c]]
 where `r` and `c` represent the row and column, respectively, where a
 queen must be placed on the chessboard.
-"""
+
 import sys
 
 
 def init_board(n):
-    """Initialize an `n`x`n` sized chessboard with 0's."""
+   """ Initialize an `n`x`n` sized chessboard with 0's."""
     board = []
     [board.append([]) for i in range(n)]
     [row.append(' ') for i in range(n) for row in board]
