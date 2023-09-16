@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-no_c = __import__('5-no_c').no_c
+print_matrix_integer = __import__('6-print_matrix_integer').print_matrix_integer
 
-word = "School"
-new_word = no_c(word)
+matrix = [[1, 2], [4, 5]]
 
-print(new_word)
-print(word)
+print_matrix_integer(matrix)
